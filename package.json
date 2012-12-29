@@ -1,0 +1,35 @@
+{
+  "name": "webdriver.js",
+  "description": "jQuery styled WebDriver bindings for node.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/niklasvh/webdriver.js",
+  "author": {
+    "name": "Niklas von Hertzen",
+    "email": "niklasvh@gmail.com",
+    "url": "http://hertzen.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niklasvh/webdriver.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niklasvh/webdriver.js/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/niklasvh/webdriver.js/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/webdriver.js",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.17"
+  },
+  "keywords": []
+}

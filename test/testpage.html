@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sample page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <div class="test" style="width:250px;height:50px;">TODO write <b>content</b></div>
+    <form>
+      <label for="username">username:</label><input type="text" id="username" name="username" style="width:200px" />
+      <label>password:</label><input type="text" name="password" />
+    </form>
+    <script>
+      window.setTimeout(function() {
+        var div = document.createElement("div");
+        div.id = "timeddiv";
+        document.body.appendChild(div);
+      }, 1000);
+    </script>
+  </body>
+</html>
