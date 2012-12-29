@@ -12,11 +12,11 @@ Install the module with:
 
 Launch the <a href="http://code.google.com/p/selenium/downloads/list">Selenium server</a> with:
 
-   $ java -jar path/to/selenium-server-standalone-2.xx.x.jar
+    $ java -jar path/to/selenium-server-standalone-2.xx.x.jar
 
 Run tests
 
-   $ grunt test
+    $ grunt test
 
 ## Examples
 
